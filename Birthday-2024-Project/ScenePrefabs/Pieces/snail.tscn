@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dw50giad0r2m3"]
 
 [ext_resource type="PackedScene" uid="uid://ccdq0btysgv1m" path="res://ScenePrefabs/Pieces/base_piece.tscn" id="1_kkwfv"]
-[ext_resource type="Texture2D" uid="uid://cyaxerqj7bgms" path="res://Art/OfficialPieceArt/Snail.png" id="2_1fwf5"]
+[ext_resource type="Texture2D" uid="uid://cvff2iuc1f07v" path="res://Art/GenericPieceArt/snail.png" id="2_y72ji"]
 
 [node name="snail" instance=ExtResource("1_kkwfv")]
 pieceShape = "01
@@ -9,5 +9,4 @@ pieceShape = "01
 isBlocker = true
 
 [node name="Sprite2D" parent="." index="0"]
-position = Vector2(-120, -120)
-texture = ExtResource("2_1fwf5")
+texture = ExtResource("2_y72ji")

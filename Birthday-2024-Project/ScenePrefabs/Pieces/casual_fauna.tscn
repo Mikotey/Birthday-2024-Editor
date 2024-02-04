@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://k7op5iqng1g3"]
 
 [ext_resource type="PackedScene" uid="uid://ccdq0btysgv1m" path="res://ScenePrefabs/Pieces/base_piece.tscn" id="1_wuuh8"]
-[ext_resource type="Texture2D" uid="uid://bv7x7urulm0hl" path="res://Art/OfficialPieceArt/FaunaBdayProject2024CasualFaunaNoBg.png" id="2_btewe"]
+[ext_resource type="Texture2D" uid="uid://d202u311l5w81" path="res://Art/GenericPieceArt/casualfauna.png" id="2_qelfk"]
 
 [node name="casual_fauna" instance=ExtResource("1_wuuh8")]
 pieceShape = "11
@@ -10,5 +10,4 @@ pieceShape = "11
 "
 
 [node name="Sprite2D" parent="." index="0"]
-position = Vector2(0, -60)
-texture = ExtResource("2_btewe")
+texture = ExtResource("2_qelfk")

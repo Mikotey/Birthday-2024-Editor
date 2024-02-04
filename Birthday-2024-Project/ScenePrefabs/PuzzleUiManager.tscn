@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=3 uid="uid://cosap7ka4jc6c"]
+[gd_scene load_steps=33 format=3 uid="uid://cosap7ka4jc6c"]
 
 [ext_resource type="Script" path="res://Scripts/UI/Puzzle/PuzzleUiManager.gd" id="1_e57yp"]
 [ext_resource type="Theme" uid="uid://cp1430xlncsx2" path="res://Art/UI/Themes/Fauna_2024_birthday_game_theme.tres" id="2_0axgr"]
@@ -30,6 +30,7 @@
 [ext_resource type="PackedScene" uid="uid://dw50giad0r2m3" path="res://ScenePrefabs/Pieces/snail.tscn" id="25_txqha"]
 [ext_resource type="PackedScene" uid="uid://kehoouuydau5" path="res://ScenePrefabs/Pieces/wide_fauna.tscn" id="26_gjtm0"]
 [ext_resource type="PackedScene" uid="uid://ctrg6ts07xcf5" path="res://ScenePrefabs/Pieces/wrench.tscn" id="27_2038e"]
+[ext_resource type="PackedScene" uid="uid://5yjn5jx20rmk" path="res://ScenePrefabs/Pieces/gold_apple.tscn" id="28_kcfq2"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8uao3"]
 
@@ -193,6 +194,7 @@ size_flags_vertical = 4
 text = "Export"
 
 [node name="PieceLibrary" type="Panel" parent="MainScreen"]
+visible = false
 layout_mode = 1
 anchors_preset = 9
 anchor_bottom = 1.0
@@ -222,6 +224,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="casual_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece" instance=ExtResource("8_7xd20")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece2" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -230,6 +234,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="casual_fauna_wave" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece2" instance=ExtResource("9_46j5t")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece3" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -238,6 +244,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="cowkini_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece3" instance=ExtResource("10_qy6ph")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece4" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -246,6 +254,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="ele_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece4" instance=ExtResource("11_drf77")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece5" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -254,6 +264,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="faunashi" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece5" instance=ExtResource("12_da6up")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece6" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -262,6 +274,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="faunya" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece6" instance=ExtResource("13_32upj")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece7" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -270,6 +284,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="hitman_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece7" instance=ExtResource("14_o47i1")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece8" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -278,6 +294,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="hungry_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece8" instance=ExtResource("15_f4tr3")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece9" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -286,6 +304,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="idol_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece9" instance=ExtResource("16_assat")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece10" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -294,6 +314,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="kimono_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece10" instance=ExtResource("17_pvu4a")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece11" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -302,6 +324,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="matcha_1" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" instance=ExtResource("18_m3bly")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece12" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -310,6 +334,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="matcha_2" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" instance=ExtResource("19_e241v")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece13" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -318,6 +344,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="mitts_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece13" instance=ExtResource("20_iet1h")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece14" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -326,6 +354,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="nemu_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece14" instance=ExtResource("21_sxpgb")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece15" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -334,6 +364,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="original_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece15" instance=ExtResource("22_2ted2")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece16" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -342,6 +374,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="smol_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece16" instance=ExtResource("23_pq2e6")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece17" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -350,6 +384,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="smol_faunya" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece17" instance=ExtResource("24_uwwca")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece18" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -358,6 +394,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="snail" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" instance=ExtResource("25_txqha")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece19" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -366,6 +404,8 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="wide_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece19" instance=ExtResource("26_gjtm0")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="LibraryPiece20" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
@@ -374,6 +414,18 @@ script = ExtResource("5_umaa4")
 puzzleUiManager = NodePath("../../../../..")
 
 [node name="wrench" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece20" instance=ExtResource("27_2038e")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
+
+[node name="LibraryPiece21" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
+custom_minimum_size = Vector2(240, 240)
+layout_mode = 2
+script = ExtResource("5_umaa4")
+puzzleUiManager = NodePath("../../../../..")
+
+[node name="gold_apple" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece21" instance=ExtResource("28_kcfq2")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
 
 [node name="ExportPopup" type="ColorRect" parent="MainScreen"]
 visible = false
@@ -569,6 +621,7 @@ exportPopup = NodePath("../../MainScreen/ExportPopup")
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece19" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece19" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece20" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece20" method="GrabPiece"]
+[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece21" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece21" method="GrabPiece"]
 [connection signal="button_up" from="MainScreen/ExportPopup/Panel/Button" to="States/PuzzleUiEditState" method="_on_dismiss_export_popup"]
 [connection signal="button_up" from="MainScreen/ImportPopup/Panel/Button" to="States/PuzzleUiEditState" method="_on_confirm_import"]
 [connection signal="button_up" from="MainScreen/ImportPopup/Panel/Button2" to="States/PuzzleUiEditState" method="_on_cancel_import"]

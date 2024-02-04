@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://phpjmox7w72m"]
 
 [ext_resource type="PackedScene" uid="uid://ccdq0btysgv1m" path="res://ScenePrefabs/Pieces/base_piece.tscn" id="1_p2o4v"]
-[ext_resource type="Texture2D" uid="uid://dytum2aj5qbkp" path="res://Art/OfficialPieceArt/Matcha2.png" id="2_jt15s"]
+[ext_resource type="Texture2D" uid="uid://c83cn3us77ljb" path="res://Art/GenericPieceArt/matcha2.png" id="2_nho7w"]
 
 [node name="matcha_2" instance=ExtResource("1_p2o4v")]
 pieceShape = "010
@@ -10,5 +10,4 @@ pieceShape = "010
 isBlocker = true
 
 [node name="Sprite2D" parent="." index="0"]
-position = Vector2(60, -60)
-texture = ExtResource("2_jt15s")
+texture = ExtResource("2_nho7w")
