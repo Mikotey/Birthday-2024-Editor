@@ -220,10 +220,9 @@ vertical = true
 [node name="LibraryPiece" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Casual Fauna
+Beloved kirin in her casual
+outfit ready to stream :3"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -236,10 +235,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece2" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Waving Casual Fauna
+“Konfauna! I’m Ceres Fauna
+from Hololive Promise.”"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -252,10 +250,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece3" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Cowkini Fauna
+Cowkini? Check. Safety cap? Check.
+Matcha latte? Che… Aaaaa… Uuuuu…"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -268,10 +265,8 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece4" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "EleFauna
+“Prrrt. Prrrt. Toot~”"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -284,10 +279,11 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece5" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Faunashi
+Faunashi-sensei in her golden pot and,
+with her irreplaceable hammer,
+will lead Baeruto and Moomsuke to 
+the greatest heights of Getting Over It."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -300,10 +296,10 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece6" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Faunya
+Is it a cat? Is it Casual Fauna?
+It’s actually both! And it seems she likes
+this golden apple she has in her paws."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -316,10 +312,10 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece7" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Agent Fauna7
+Agent Fauna7 refuses to use guns
+as bananas work just as well.
+It’s not because of her aim."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -332,10 +328,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece8" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Hungry Faunya
+What’s the matter, Faunya?
+Why are you looking at me like that?"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -348,10 +343,8 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece9" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Idol Fauna
+Tensai tekina, Idol-sama!"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -364,10 +357,11 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece10" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Kimono Fauna
+“Okaerinasaimase, Goshujin-sama!
+Your… your… your maid is here.
+It was me all along. Aaaaaaa!
+What do you think? What do you think?”"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -380,10 +374,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece11" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Big Matcha
+Matcha latte, one of the favorites of Fauna.
+And look there’s cute sapling art on it!"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -396,10 +389,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece12" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Matcha Set
+Even more matcha? What will I do with all
+this powder? One glass is not enough."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -412,10 +404,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece13" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Fauna Mitts
+These are not oversized oven mitts.
+These are oversized horn warmers."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -428,10 +419,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece14" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Nemu Fauna
+Oh, the bliss and comfiness of Nemu onesie.
+These ears can put EleFauna’s ears to shame."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -444,10 +434,10 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece15" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Original Fauna
+“The Keeper of Nature, a druidic kirin who
+appeared on the internet to win over humans
+and convince them to return to nature.”"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -460,10 +450,10 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece16" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Smol Fauna
+It's time for hide and seek game!
+Will you help this sapling find Smol Fauna
+among these bushes and columns?"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -476,10 +466,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece17" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Smol Faunya
+Hanya? Is it matcha latte? Watch out, Smol Faunya
+will smack it and spill matcha all over the floor!"
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -492,10 +481,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece18" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Snail
+Just like any cat, Snail is a liquid and
+can end up in strange poses."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -508,10 +496,10 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece19" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Wide Fauna
+The first glimpse of 3D Fauna was not
+what we expected but wide head and
+big horns will forever be in our minds."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -524,10 +512,10 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece20" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Wrench
+A trusty companion for Agent Fauna7.
+It can do everything as long as it’s a distraction
+or smacking the head of an unsuspecting victim."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -540,10 +528,9 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece21" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."
+tooltip_text = "Golden Apple
+The fabled golden apple in possession of Keeper
+of Nature. One bite is enough to cure any ailment."
 mouse_filter = 1
 keep_pressed_outside = true
 script = ExtResource("5_umaa4")
@@ -698,6 +685,30 @@ grow_horizontal = 0
 grow_vertical = 0
 theme_override_font_sizes/font_size = 16
 text = "Cancel"
+
+[node name="Label" type="Label" parent="MainScreen"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -322.0
+offset_top = -316.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Controls:
+LMB DRAG to grab & move pieces
+RMB or AD to rotate held piece
+
+Editing:
+Drag pieces from the library onto the grid
+Hovering over library shows piece descriptions
+Drag pieces off the grid into the red to delete"
+vertical_alignment = 2
+autowrap_mode = 3
 
 [node name="States" type="Control" parent="."]
 layout_mode = 3
