@@ -1,10 +1,9 @@
-[gd_scene load_steps=11 format=3 uid="uid://btcp1sgcebsyi"]
+[gd_scene load_steps=10 format=3 uid="uid://btcp1sgcebsyi"]
 
 [ext_resource type="Script" path="res://Scripts/UI/Settings/SettingsWindow.gd" id="1_ccik3"]
 [ext_resource type="Script" path="res://Scripts/UI/Settings/VideoSettingsControl.gd" id="2_y1ii8"]
 [ext_resource type="Script" path="res://Scripts/UI/Settings/AudioSettingsControl.gd" id="3_jxrfi"]
 [ext_resource type="Resource" uid="uid://b74u14u4necbw" path="res://Resources/Audio/Samples/SampleFaunaNoises.tres" id="4_r7kmp"]
-[ext_resource type="AudioStream" uid="uid://cu8cq2y34vvj7" path="res://Resources/Audio/tone_220hz.wav" id="5_3jstt"]
 [ext_resource type="Texture2D" uid="uid://bh6ef2hoft8cb" path="res://Art/UI/Textbox_QuarterSize.png" id="6_pxxqe"]
 [ext_resource type="Theme" uid="uid://cp1430xlncsx2" path="res://Art/UI/Themes/Fauna_2024_birthday_game_theme.tres" id="7_0mm3k"]
 [ext_resource type="Texture2D" uid="uid://b3pmval131k2g" path="res://Art/UI/Exit_button_normal_MiniSize.png" id="8_m4in0"]
@@ -73,6 +72,7 @@ offset_bottom = 52.0
 grow_horizontal = 2
 grow_vertical = 2
 tab_alignment = 1
+tabs_visible = false
 
 [node name="Video" type="TabBar" parent="Panel/ThemeHolder/TabContainer" node_paths=PackedStringArray("window_options", "resolution_options")]
 layout_mode = 2
@@ -138,7 +138,6 @@ sfx_sample_player = NodePath("../../SfxSamplePlayer")
 fauna_sample_player = NodePath("../../FaunaSamplePlayer")
 sfx_samples = ExtResource("4_r7kmp")
 fauna_samples = ExtResource("4_r7kmp")
-tone_sample = ExtResource("5_3jstt")
 
 [node name="MarginContainer" type="MarginContainer" parent="Panel/ThemeHolder/TabContainer/Audio"]
 layout_mode = 1

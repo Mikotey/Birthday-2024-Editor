@@ -51,24 +51,19 @@ func on_piece_held():
 
 
 func play_grab_audio():
-	_play_sfx_sample(fauna_samples.get_random_sample())
+	pass
 
 
 func play_place_audio():
-	_play_sfx_sample(place_samples.get_random_sample())
+	pass
 
 
 func play_rotate_audio():
-	_play_sfx_sample(rotate_samples.get_random_sample())
+	pass
 
 
 func _play_sfx_sample(sample: AudioStream):
-	if sample == null:
-		return
-	
-	sfx_player.stop()
-	sfx_player.stream = sample
-	sfx_player.play()
+	pass
 
 
 func cancel_movement_tween():

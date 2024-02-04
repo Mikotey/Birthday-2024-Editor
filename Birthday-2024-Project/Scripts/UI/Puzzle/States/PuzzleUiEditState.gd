@@ -66,6 +66,7 @@ func enter_state():
 	screen.show_hide_win_text(false)
 	screen.context_button.text = "Library"
 	screen.context_button.button_up.connect(_on_show_library_clicked)
+	screen.context_button.show()
 	screen.exit_button.button_up.connect(_on_exit_clicked)
 	screen.reset_button.button_up.connect(_on_reset_clicked)
 	screen.back_button.button_up.connect(_on_back_clicked)
@@ -85,6 +86,7 @@ func exit_state():
 	var screen = _ui_manager.main_screen
 	screen.import_button.hide()
 	screen.export_button.hide()
+	screen.context_button.hide()
 	screen.context_button.button_up.disconnect(_on_show_library_clicked)
 	screen.exit_button.button_up.disconnect(_on_exit_clicked)
 	screen.reset_button.button_up.disconnect(_on_reset_clicked)

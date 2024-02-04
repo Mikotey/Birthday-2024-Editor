@@ -37,7 +37,6 @@ signal initialized_event()
 signal state_changed_event(state)
 
 func go_to_main_menu():
-	myScreen.GoToScreen(load("res://MainScenes/main_menu.tscn"), {})
 	pass
 
 func get_current_state() -> GameState:
@@ -106,9 +105,7 @@ func _process(delta):
 		_is_inititialized = true
 		
 		initialized_event.emit()
-		switch_to_play_state()
-		#TODO: Load level using Level Select
-		grid.LoadLevel(debug_setupData)
+		switch_to_edit_state()
 	
 	if not _can_interact or held_piece == null:
 		deletionZone.hide()
