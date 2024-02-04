@@ -20,6 +20,10 @@ func GoToScreen(screen : PackedScene, data : Dictionary):
 	_screenStack.push_back(newScreen)
 	screenLogic.ScreenEnter.emit()
 	
+func IsTopScreen(screen : ScreenLogic) -> bool:
+	var topScreen : ScreenLogic = _screenStack.back() as ScreenLogic
+	return screen == topScreen
+
 func CloseTopScreen(data : Dictionary):
 	if _screenStack.size() == 1:
 		printerr("ERROR: cannot close last screen")
