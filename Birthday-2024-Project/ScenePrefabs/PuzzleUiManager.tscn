@@ -296,7 +296,7 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece6" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Faunya
+tooltip_text = "Casual Faunya
 Is it a cat? Is it Casual Fauna?
 It’s actually both! And it seems she likes
 this golden apple she has in her paws."
@@ -371,36 +371,6 @@ puzzleUiManager = NodePath("../../../../..")
 position = Vector2(120, 120)
 scale = Vector2(0.4, 0.4)
 
-[node name="LibraryPiece11" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
-custom_minimum_size = Vector2(240, 240)
-layout_mode = 2
-tooltip_text = "Big Matcha
-Matcha latte, one of the favorites of Fauna.
-And look there’s cute sapling art on it!"
-mouse_filter = 1
-keep_pressed_outside = true
-script = ExtResource("5_umaa4")
-puzzleUiManager = NodePath("../../../../..")
-
-[node name="matcha_1" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" instance=ExtResource("18_m3bly")]
-position = Vector2(120, 120)
-scale = Vector2(0.4, 0.4)
-
-[node name="LibraryPiece12" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
-custom_minimum_size = Vector2(240, 240)
-layout_mode = 2
-tooltip_text = "Matcha Set
-Even more matcha? What will I do with all
-this powder? One glass is not enough."
-mouse_filter = 1
-keep_pressed_outside = true
-script = ExtResource("5_umaa4")
-puzzleUiManager = NodePath("../../../../..")
-
-[node name="matcha_2" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" instance=ExtResource("19_e241v")]
-position = Vector2(120, 120)
-scale = Vector2(0.4, 0.4)
-
 [node name="LibraryPiece13" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
@@ -420,7 +390,7 @@ scale = Vector2(0.4, 0.4)
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
 tooltip_text = "Nemu Fauna
-Oh, the bliss and comfiness of Nemu onesie.
+Oh, the bliss and comfiness of a Nemu onesie.
 These ears can put EleFauna’s ears to shame."
 mouse_filter = 1
 keep_pressed_outside = true
@@ -478,21 +448,6 @@ puzzleUiManager = NodePath("../../../../..")
 position = Vector2(120, 120)
 scale = Vector2(0.4, 0.4)
 
-[node name="LibraryPiece18" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
-custom_minimum_size = Vector2(240, 240)
-layout_mode = 2
-tooltip_text = "Snail
-Just like any cat, Snail is a liquid and
-can end up in strange poses."
-mouse_filter = 1
-keep_pressed_outside = true
-script = ExtResource("5_umaa4")
-puzzleUiManager = NodePath("../../../../..")
-
-[node name="snail" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" instance=ExtResource("25_txqha")]
-position = Vector2(120, 120)
-scale = Vector2(0.4, 0.4)
-
 [node name="LibraryPiece19" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
@@ -509,10 +464,55 @@ puzzleUiManager = NodePath("../../../../..")
 position = Vector2(120, 120)
 scale = Vector2(0.4, 0.4)
 
+[node name="LibraryPiece18" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
+custom_minimum_size = Vector2(240, 240)
+layout_mode = 2
+tooltip_text = "Snail - Blocker
+Just like any cat, Snail is a liquid and
+can end up in strange poses."
+mouse_filter = 1
+keep_pressed_outside = true
+script = ExtResource("5_umaa4")
+puzzleUiManager = NodePath("../../../../..")
+
+[node name="snail" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" instance=ExtResource("25_txqha")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
+
+[node name="LibraryPiece11" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
+custom_minimum_size = Vector2(240, 240)
+layout_mode = 2
+tooltip_text = "Big Matcha - Blocker
+Matcha latte, one of the favorites of Fauna.
+And look there’s cute sapling art on it!"
+mouse_filter = 1
+keep_pressed_outside = true
+script = ExtResource("5_umaa4")
+puzzleUiManager = NodePath("../../../../..")
+
+[node name="matcha_1" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" instance=ExtResource("18_m3bly")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
+
+[node name="LibraryPiece12" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
+custom_minimum_size = Vector2(240, 240)
+layout_mode = 2
+tooltip_text = "Matcha Set - Blocker
+Even more matcha? What will I do with all
+this powder? One glass is not enough."
+mouse_filter = 1
+keep_pressed_outside = true
+script = ExtResource("5_umaa4")
+puzzleUiManager = NodePath("../../../../..")
+
+[node name="matcha_2" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" instance=ExtResource("19_e241v")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
+
 [node name="LibraryPiece20" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Wrench
+tooltip_text = "Wrench - Blocker
 A trusty companion for Agent Fauna7.
 It can do everything as long as it’s a distraction
 or smacking the head of an unsuspecting victim."
@@ -528,7 +528,7 @@ scale = Vector2(0.4, 0.4)
 [node name="LibraryPiece21" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
-tooltip_text = "Golden Apple
+tooltip_text = "Golden Apple - Blocker
 The fabled golden apple in possession of Keeper
 of Nature. One bite is enough to cure any ailment."
 mouse_filter = 1
@@ -693,11 +693,13 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -322.0
-offset_top = -316.0
+offset_left = -345.0
+offset_top = -446.0
+offset_right = -55.0
+offset_bottom = -55.0
 grow_horizontal = 0
 grow_vertical = 0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0.572549, 0.47451, 0.235294, 1)
 theme_override_font_sizes/font_size = 20
 text = "Controls:
 LMB DRAG to grab & move pieces
@@ -748,15 +750,15 @@ exportPopup = NodePath("../../MainScreen/ExportPopup")
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece8" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece8" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece9" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece9" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece10" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece10" method="GrabPiece"]
-[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" method="GrabPiece"]
-[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece13" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece13" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece14" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece14" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece15" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece15" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece16" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece16" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece17" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece17" method="GrabPiece"]
-[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece19" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece19" method="GrabPiece"]
+[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" method="GrabPiece"]
+[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" method="GrabPiece"]
+[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece20" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece20" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece21" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece21" method="GrabPiece"]
 [connection signal="button_up" from="MainScreen/ExportPopup/Panel/Button" to="States/PuzzleUiEditState" method="_on_dismiss_export_popup"]
