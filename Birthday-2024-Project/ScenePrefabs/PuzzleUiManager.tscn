@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://cosap7ka4jc6c"]
+[gd_scene load_steps=35 format=3 uid="uid://cosap7ka4jc6c"]
 
 [ext_resource type="Script" path="res://Scripts/UI/Puzzle/PuzzleUiManager.gd" id="1_e57yp"]
 [ext_resource type="Theme" uid="uid://cp1430xlncsx2" path="res://Art/UI/Themes/Fauna_2024_birthday_game_theme.tres" id="2_0axgr"]
@@ -31,6 +31,8 @@
 [ext_resource type="PackedScene" uid="uid://kehoouuydau5" path="res://ScenePrefabs/Pieces/wide_fauna.tscn" id="26_gjtm0"]
 [ext_resource type="PackedScene" uid="uid://ctrg6ts07xcf5" path="res://ScenePrefabs/Pieces/wrench.tscn" id="27_2038e"]
 [ext_resource type="PackedScene" uid="uid://5yjn5jx20rmk" path="res://ScenePrefabs/Pieces/gold_apple.tscn" id="28_kcfq2"]
+[ext_resource type="PackedScene" uid="uid://qgaf0pv44vcf" path="res://ScenePrefabs/Pieces/happy_fauna.tscn" id="29_13ob1"]
+[ext_resource type="PackedScene" uid="uid://b38fclggnxgnu" path="res://ScenePrefabs/Pieces/maid_fauna.tscn" id="30_6d7gv"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8uao3"]
 
@@ -464,6 +466,35 @@ puzzleUiManager = NodePath("../../../../..")
 position = Vector2(120, 120)
 scale = Vector2(0.4, 0.4)
 
+[node name="LibraryPiece23" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
+custom_minimum_size = Vector2(240, 240)
+layout_mode = 2
+tooltip_text = "Maid Fauna
+Ready to serve you a delicious meal of her
+own concoction. Mac-n-cheese milkshake!"
+mouse_filter = 1
+keep_pressed_outside = true
+script = ExtResource("5_umaa4")
+puzzleUiManager = NodePath("../../../../..")
+
+[node name="maid_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece23" instance=ExtResource("30_6d7gv")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
+
+[node name="LibraryPiece22" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
+custom_minimum_size = Vector2(240, 240)
+layout_mode = 2
+tooltip_text = "Happy Fauna
+Cute little kirin with a cute little smile :>"
+mouse_filter = 1
+keep_pressed_outside = true
+script = ExtResource("5_umaa4")
+puzzleUiManager = NodePath("../../../../..")
+
+[node name="happy_fauna" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece22" instance=ExtResource("29_13ob1")]
+position = Vector2(120, 120)
+scale = Vector2(0.4, 0.4)
+
 [node name="LibraryPiece18" type="Button" parent="MainScreen/PieceLibrary/ScrollContainer/BoxContainer" node_paths=PackedStringArray("puzzleUiManager")]
 custom_minimum_size = Vector2(240, 240)
 layout_mode = 2
@@ -756,6 +787,8 @@ exportPopup = NodePath("../../MainScreen/ExportPopup")
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece16" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece16" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece17" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece17" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece19" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece19" method="GrabPiece"]
+[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece23" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece23" method="GrabPiece"]
+[connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece22" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece22" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece18" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece11" method="GrabPiece"]
 [connection signal="button_down" from="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" to="MainScreen/PieceLibrary/ScrollContainer/BoxContainer/LibraryPiece12" method="GrabPiece"]
